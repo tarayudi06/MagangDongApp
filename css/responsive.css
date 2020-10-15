@@ -1,0 +1,87 @@
+/* for tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 20px;
+    }
+
+
+    .top-wrapper h4 {
+        font-size: 12px;
+    }
+
+
+    .yellow img {
+        margin-top: 250px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .blue img {
+        margin-top: 60px;
+        margin-right: -50px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .rocket img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn {
+        padding: 5px 15px;
+    }
+
+}
+
+/* for smartphone*/
+@media all and (max-width: 670px) {
+    .top-wrapper h1 {
+        font-size: 15px;
+    }
+
+    .intern p,
+    .blog p {
+        font-size: 12px;
+    }
+
+    .top-wrapper h4 {
+        font-size: 12px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .btn-wrapper {
+        width: min-content;
+        width: 100%;
+    }
+
+    .search {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .yellow img {
+        margin-top: 120px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .blue img {
+        margin-top: 60px;
+        margin-right: -50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .rocket img {
+        width: 100px;
+        height: 100px;
+    }
+}
