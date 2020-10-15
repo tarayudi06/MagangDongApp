@@ -91,7 +91,7 @@ header {
 .top-wrapper {
     margin-top: 50px;
     padding: 50px 0;
-    background-image: url(/asset/png/top-background.png);
+    background-image: url(asset/png/top-background.png);
     background-size: cover;
     color: white;
     text-align: left;
