@@ -1,0 +1,240 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Code*/
+container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #491546;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    transition: top .5s;
+}
+
+.header-left {
+    margin-left: 10px;
+    float: left;
+}
+
+.logo {
+    margin: 8px;
+    height: 48px;
+    width: 48px;
+}
+
+.header-right {
+    margin-right: 10px;
+    float: right;
+}
+
+.header-right a {
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.8s;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 12px 10px;
+    display: none;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-image: url(/asset/png/top-background.png);
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.top-wrapper h1,
+h4,
+.btn-wrapper {
+    margin-left: 20px;
+}
+
+.text {
+    margin-top: 100px;
+}
+
+.cari::-webkit-input-placeholder {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+.lokasi::-webkit-input-placeholder {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+.search {
+    background: linear-gradient(#2680EB, #b2cef0);
+}
+
+.btn {
+    padding: 8px 26px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-wrapper input {
+    padding: 10px;
+    color: white;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+}
+
+.btn-wrapper {
+    margin-top: 60px;
+}
+
+.yellow img {
+    margin-top: 250px;
+    float: left;
+    width: 280px;
+    height: 280px;
+}
+
+.blue img {
+    margin-top: 60px;
+    margin-right: -50px;
+    width: 350px;
+    height: 350px;
+}
+
+.flex-container {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.flex-container>div {
+    margin: 50px;
+}
+
+.rocket img {
+    /* float: left; */
+    width: 280px;
+    height: 280px;
+}
+
+.intern {
+    margin-left: 15px;
+    text-align: left;
+}
+
+.intern p,
+.blog p {
+    font-size: 15px;
+}
+
+.blog {
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+
+.btn-intern,
+.btn-blog {
+    margin-top: 15px;
+    background: linear-gradient(#061B46, #491546);
+}
+
+footer {
+    color: white;
+    background-color: #491546;
+}
+
+footer p {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.icon-bottom {
+    margin-left: 100px;
+}
+
+.icon-bottom img {
+    padding-left: 15px;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 20px;
+}
+
+.back-top {
+
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+.back-top img {
+    opacity: 0.5;
+    width: 32px;
+    height: 32px;
+}
+
+.back-top img:hover {
+    opacity: 1;
+}
